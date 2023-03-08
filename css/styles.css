@@ -11,12 +11,13 @@
 body {
 
     background-image: linear-gradient(rgb(255, 255, 255), rgb(150, 224, 255));
+    height: 100vh;
 }
 
 .container {
 
     background-color: grey;
-    height: 60vh;
+    height: 74vh;
 }
 
 .message {
@@ -38,3 +39,40 @@ body {
     float: left;
     clear: both;
 }
+
+
+/* form css */
+
+#myForm {
+    /* text-align: center; */
+    position: fixed;
+    width: 100%;
+    bottom: 9px;
+}
+
+#message {
+    width: 88%;
+    border: 3px solid black;
+    border-radius: 6px;
+    height: 48px;
+}
+
+input[type="submit"] {
+    width: 8%;
+    height: 52px;
+    border: 3px solid black;
+    border-radius: 34px;
+    font-size: initial;
+}
+
+#message {
+    width: 88%;
+    border: 3px solid black;
+    border-radius: 6px;
+    height: 48px;
+    font-size: large;
+    text-align: right;
+    padding: 0 15px 0 0;
+}
+
+
