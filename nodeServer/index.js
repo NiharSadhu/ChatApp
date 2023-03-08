@@ -6,8 +6,9 @@ const users = {};
 
 io.on('connection', socket =>{
     socket.on('user-joined', name =>{
+        console.log('user name:', nameUser);
         users[socket.id] = name;
-        socket.broadcast.emit('user-joined', name)
+        socket.broadcast.emit('user-joined', name);
     });
 
     socket.on('send', message =>{

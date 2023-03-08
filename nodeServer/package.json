@@ -9,6 +9,7 @@
   "author": "Nihar Sadhu",
   "license": "ISC",
   "dependencies": {
+    "index.js": "^0.0.3",
     "nodemon": "^2.0.21",
     "socket.io": "^4.6.1"
   }
