@@ -22,9 +22,11 @@ body {
 .message {
     background-color: white;
     padding: 20px;
+    width: 24%;
     margin: 10px 0;
     border: 2px solid black;
     border-radius: 20px;
+    font-size: large;
 }
 
 .onright {
