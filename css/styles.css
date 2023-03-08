@@ -12,3 +12,27 @@ body {
 
     background-image: linear-gradient(rgb(255, 255, 255), rgb(150, 224, 255));
 }
+
+.container {
+
+    background-color: grey;
+    height: 60vh;
+}
+
+.message {
+    background-color: white;
+    padding: 20px;
+    margin: 10px 0;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.onright {
+    float: right;
+    clear: both;
+}
+
+.onleft {
+    float: left;
+    clear: both;
+}
